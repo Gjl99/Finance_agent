@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金融分析智能体系统</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            font-weight: 600;
+            border-radius: 10px 10px 0 0 !important;
+            padding: 1rem 1.5rem;
+        }
+        .btn-primary {
+            background-color: #0d47a1;
+            border-color: #0d47a1;
+        }
+        .btn-primary:hover {
+            background-color: #1565c0;
+            border-color: #1565c0;
+        }
+        .status-badge {
+            font-size: 0.9rem;
+            padding: 0.5em 1em;
+        }
+        .progress {
+            height: 10px;
+            border-radius: 5px;
+        }
+        .report-content {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+        .report-content h1, .report-content h2, .report-content h3 {
+            color: #1a237e;
+            margin-top: 1.5rem;
+        }
+        .report-content table {
+            width: 100%;
+            margin-bottom: 1rem;
+            border-collapse: collapse;
+        }
+        .report-content th, .report-content td {
+            padding: 0.75rem;
+            border: 1px solid #dee2e6;
+        }
+        .report-content th {
+            background-color: #f8f9fa;
+        }
+        #loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255,255,255,0.8);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1><i class="fas fa-chart-line me-3"></i>金融分析智能体系统</h1>
+                    <p class="lead mb-0">基于多智能体协作的深度金融分析平台</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <span class="badge bg-light text-dark p-2">
+                        <i class="fas fa-robot me-1"></i> AI Powered
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h4 class="card-title mb-4">开始新的分析</h4>
+                        <div class="input-group mb-3">
+                            <input type="text" id="query-input" class="form-control form-control-lg" placeholder="请输入分析需求，例如：'分析嘉友国际' 或 '帮我看看比亚迪(002594)'">
+                            <button class="btn btn-primary btn-lg" type="button" id="analyze-btn">
+                                <i class="fas fa-search me-2"></i>开始分析
+                            </button>
+                        </div>
+                        <div class="form-text text-muted">
+                            <i class="fas fa-info-circle me-1"></i> 支持自然语言查询，系统会自动识别股票代码和公司名称。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="status-section" class="row" style="display: none;">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-sync-alt me-2"></i>分析状态</span>
+                        <span id="status-text" class="badge bg-info text-dark status-badge">准备中...</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="progress mb-3">
+                            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                        </div>
+                        <p id="current-stage-text" class="text-center text-muted mb-0">正在初始化...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                        <span><i class="fas fa-terminal me-2"></i>执行日志</span>
+                        <button class="btn btn-sm btn-outline-light" id="clear-logs">清除日志</button>
+                    </div>
+                    <div class="card-body bg-dark p-0">
+                        <div id="log-container" class="p-3" style="height: 300px; overflow-y: auto; font-family: monospace; color: #00ff00; font-size: 0.9rem;">
+                            <div class="text-muted">等待开始分析...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="result-section" class="row" style="display: none;">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <i class="fas fa-check-circle me-2"></i>分析报告
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-tabs mb-3" id="reportTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button" role="tab">综合报告</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="fundamental-tab" data-bs-toggle="tab" data-bs-target="#fundamental" type="button" role="tab">基本面分析</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="technical-tab" data-bs-toggle="tab" data-bs-target="#technical" type="button" role="tab">技术面分析</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab">估值分析</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button" role="tab">新闻舆情</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="reportTabsContent">
+                            <div class="tab-pane fade show active" id="summary" role="tabpanel">
+                                <div id="final-report-content" class="report-content"></div>
+                            </div>
+                            <div class="tab-pane fade" id="fundamental" role="tabpanel">
+                                <div id="fundamental-content" class="report-content"></div>
+                            </div>
+                            <div class="tab-pane fade" id="technical" role="tabpanel">
+                                <div id="technical-content" class="report-content"></div>
+                            </div>
+                            <div class="tab-pane fade" id="value" role="tabpanel">
+                                <div id="value-content" class="report-content"></div>
+                            </div>
+                            <div class="tab-pane fade" id="news" role="tabpanel">
+                                <div id="news-content" class="report-content"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted text-end">
+                        <small>分析时间: <span id="analysis-time"></span></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-4 text-muted mt-5">
+        <div class="container">
+            <p class="mb-0">© 2025 Financial Analysis AI Agent System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const socket = io();
+            const analyzeBtn = document.getElementById('analyze-btn');
+            const queryInput = document.getElementById('query-input');
+            const statusSection = document.getElementById('status-section');
+            const resultSection = document.getElementById('result-section');
+            const progressBar = document.getElementById('progress-bar');
+            const statusText = document.getElementById('status-text');
+            const currentStageText = document.getElementById('current-stage-text');
+            const logContainer = document.getElementById('log-container');
+            const clearLogsBtn = document.getElementById('clear-logs');
+            
+            // 连接状态
+            socket.on('connect', function() {
+                console.log('Connected to server');
+                const div = document.createElement('div');
+                div.className = 'log-entry';
+                div.textContent = '>>> 服务器连接成功';
+                div.style.color = '#00ff00';
+                logContainer.appendChild(div);
+            });
+            
+            socket.on('connect_error', (error) => {
+                console.error('Connection Error:', error);
+                const div = document.createElement('div');
+                div.className = 'log-entry';
+                div.textContent = '>>> 连接服务器失败: ' + error;
+                div.style.color = '#ff0000';
+                logContainer.appendChild(div);
+            });
+
+            // 日志消息
+            socket.on('log_message', function(data) {
+                const div = document.createElement('div');
+                div.className = 'log-entry';
+                // 简单的转义处理
+                let prefix = '';
+                if (data.type === 'stdout') prefix = '> ';
+                else if (data.type === 'system') prefix = '>>> ';
+                
+                div.textContent = prefix + data.message;
+                
+                if (data.type === 'log') {
+                    div.style.color = '#cccccc';
+                } else if (data.type === 'system') {
+                    div.style.color = '#00ffff';
+                }
+                logContainer.appendChild(div);
+                logContainer.scrollTop = logContainer.scrollHeight;
+            });
+
+            clearLogsBtn.addEventListener('click', function() {
+                logContainer.innerHTML = '';
+            });
+            
+            // 状态更新
+            socket.on('status_update', function(data) {
+                if (data.running) {
+                    statusSection.style.display = 'block';
+                    resultSection.style.display = 'none';
+                    analyzeBtn.disabled = true;
+                    analyzeBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>分析中...';
+                } else {
+                    analyzeBtn.disabled = false;
+                    analyzeBtn.innerHTML = '<i class="fas fa-search me-2"></i>开始分析';
+                }
+                
+                progressBar.style.width = data.progress + '%';
+                progressBar.setAttribute('aria-valuenow', data.progress);
+                statusText.textContent = data.running ? '分析进行中' : (data.error ? '分析失败' : '分析完成');
+                statusText.className = data.running ? 'badge bg-primary text-white status-badge' : (data.error ? 'badge bg-danger text-white status-badge' : 'badge bg-success text-white status-badge');
+                currentStageText.textContent = data.current_stage;
+                
+                if (data.error) {
+                    alert('分析出错: ' + data.error);
+                }
+            });
+            
+            // 分析完成
+            socket.on('analysis_complete', function(results) {
+                statusSection.style.display = 'none';
+                resultSection.style.display = 'block';
+                
+                // 渲染Markdown内容
+                document.getElementById('final-report-content').innerHTML = marked.parse(results.final_report || '暂无报告');
+                document.getElementById('fundamental-content').innerHTML = marked.parse(results.fundamental_analysis || '暂无数据');
+                document.getElementById('technical-content').innerHTML = marked.parse(results.technical_analysis || '暂无数据');
+                document.getElementById('value-content').innerHTML = marked.parse(results.value_analysis || '暂无数据');
+                document.getElementById('news-content').innerHTML = marked.parse(results.news_analysis || '暂无数据');
+                
+                document.getElementById('analysis-time').textContent = results.analysis_time;
+            });
+            
+            // 开始分析按钮点击
+            analyzeBtn.addEventListener('click', function() {
+                const query = queryInput.value.trim();
+                if (!query) {
+                    alert('请输入分析需求');
+                    return;
+                }
+                
+                // 清除旧日志
+                logContainer.innerHTML = '<div class="text-muted">开始新的分析...</div>';
+
+                fetch('/start_analysis', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query }),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        alert(data.error);
+                    } else {
+                        console.log('Analysis started');
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    alert('请求失败，请重试');
+                });
+            });
+            
+            // 回车键触发分析
+            queryInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    analyzeBtn.click();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

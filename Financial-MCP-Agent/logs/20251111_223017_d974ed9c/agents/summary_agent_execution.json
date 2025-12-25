@@ -1,0 +1,53 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-11T22:30:17.969473",
+  "start_timestamp": 1762871417.9694803,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "available_analyses": {
+      "fundamental": false,
+      "technical": false,
+      "value": false,
+      "news": false
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error",
+      "news_analysis_error",
+      "technical_analysis_error",
+      "value_analysis_error"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:30:18.006088",
+  "end_timestamp": 1762871418.0060956,
+  "execution_time_seconds": 0.03628826141357422,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:30:17",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:30:17",
+    "analysis_timestamp": "2025-11-11T22:30:17.686426",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "fundamental_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "news_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "technical_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "value_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "summary_error": "Error generating final report: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "final_report": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Not available\n        - Technical Analysis: Not available\n        - Value Analysis: Not available\n        - News Analysis: Not available\n        \n        Please review the individual analyses directly for more information.\n        ",
+    "report_path": "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251111_223018.md"
+  },
+  "success": false,
+  "error": "Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`."
+}

@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-17T23:47:59.766729",
+  "start_timestamp": 1763394479.7667413,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-17T23:49:28.153465",
+  "end_timestamp": 1763394568.1534827,
+  "execution_time_seconds": 88.3862464427948,
+  "output_data": {
+    "news_analysis_length": 2233,
+    "analysis_preview": "### 茅台（股票代码：sh.600519）新闻分析报告\n\n#### 1. 爬取与茅台相关的最新新闻（至少5条）\n\n1. **贵州茅台(600519)_股票价格_行情_走势图—东方财富网**\n   - **来源**: 百度新闻\n   - **内容**: 提供贵州茅台(600519)股票的行情走势、五档盘口、逐笔交易等实时行情数据,及贵州茅台(600519)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板块、财务指标、机构观点、行业排名、估值水平、股吧互动等与贵州茅台(600519)...\n   - **情感分析**: 3 (中性)\n   - **风险分析**: 3 (中等风险)\n   - **链接**: [东方财富网](https://quote.eastmoney.com/sh600519.html)\n\n2. **贵州茅台(600519)_股票行情_走势图—东方财富网**\n   - **来源**: 百度新闻\n   - **内容**: 提供贵州茅台(600519)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌",
+    "llm_execution_time": 86.75796794891357,
+    "total_execution_time": 88.3862464427948
+  },
+  "success": true,
+  "error": null
+}

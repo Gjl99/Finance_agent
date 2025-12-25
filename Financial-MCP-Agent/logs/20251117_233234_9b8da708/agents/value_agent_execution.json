@@ -1,0 +1,38 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-17T23:32:35.292712",
+  "start_timestamp": 1763393555.292719,
+  "input_data": {
+    "user_query": "603871 这个股票值得买吗",
+    "stock_code": "sh.603871",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:32:48.595207",
+  "end_timestamp": 1763393568.5952244,
+  "execution_time_seconds": 13.302078008651733,
+  "output_data": {
+    "query": "603871 这个股票值得买吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:32:34",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:32:34",
+    "analysis_timestamp": "2025-11-17T23:32:34.812751",
+    "stock_code": "sh.603871",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.603871\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.603871\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+  },
+  "success": false,
+  "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.603871\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+}

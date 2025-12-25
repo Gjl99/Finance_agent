@@ -1,0 +1,139 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Financial Agent - 茅台",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.main",
+            "console": "integratedTerminal",
+            "args": [
+                "--command",
+                "帮我看看茅台(600519)这只股票值得投资吗"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Financial Agent - 自定义查询",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.main",
+            "console": "integratedTerminal",
+            "args": [
+                "--command",
+                "${input:stockQuery}"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Financial Agent - 交互模式",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.main",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Test Agent - 基本面",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_agent.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--agent",
+                "fundamental",
+                "--stock",
+                "sh.600519"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Test Agent - 技术面",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_agent.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--agent",
+                "technical",
+                "--stock",
+                "sh.600519"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Test Agent - 估值",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_agent.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--agent",
+                "value",
+                "--stock",
+                "sh.600519"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "python": "${command:python.interpreterPath}"
+        },
+        {
+            "name": "Debug Test Agent - 新闻",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_agent.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--agent",
+                "news",
+                "--stock",
+                "sh.600519"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "python": "${command:python.interpreterPath}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "stockQuery",
+            "type": "promptString",
+            "description": "请输入股票分析查询",
+            "default": "分析比亚迪(002594)"
+        }
+    ]
+}

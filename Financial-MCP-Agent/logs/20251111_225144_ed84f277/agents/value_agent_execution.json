@@ -1,0 +1,41 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-11T22:51:44.307887",
+  "start_timestamp": 1762872704.3078933,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:52:01.804676",
+  "end_timestamp": 1762872721.8046944,
+  "execution_time_seconds": 17.49638342857361,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:51:44",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:51:44",
+    "analysis_timestamp": "2025-11-11T22:51:44.097230",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis": "### 股票基本信息\n\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **上市日期**: 2001-08-27\n- **类型**: A股\n- **状态**: 交易中\n\n### 步骤2：获取历史K线数据\n\n接下来，我们获取最近3-6个月的历史K线数据。为了确保数据的完整性，我们选择最近6个月的数据。",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+  },
+  "success": false,
+  "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+}

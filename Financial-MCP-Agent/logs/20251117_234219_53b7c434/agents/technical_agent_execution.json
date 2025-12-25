@@ -1,0 +1,40 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-17T23:42:19.515143",
+  "start_timestamp": 1763394139.5151503,
+  "input_data": {
+    "user_query": "603871 这个股票值得买吗",
+    "stock_code": "sh.603871",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:42:37.511271",
+  "end_timestamp": 1763394157.511296,
+  "execution_time_seconds": 17.995635747909546,
+  "output_data": {
+    "query": "603871 这个股票值得买吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:42:19",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:42:19",
+    "analysis_timestamp": "2025-11-17T23:42:19.054208",
+    "stock_code": "sh.603871",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.603871\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.603871\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "technical_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "technical_analysis": "技术分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+  },
+  "success": false,
+  "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+}

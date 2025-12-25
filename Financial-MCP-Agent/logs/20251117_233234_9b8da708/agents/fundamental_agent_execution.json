@@ -1,0 +1,32 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-17T23:32:34.816945",
+  "start_timestamp": 1763393554.816952,
+  "input_data": {
+    "user_query": "603871 这个股票值得买吗",
+    "stock_code": "sh.603871",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-17T23:34:04.640674",
+  "end_timestamp": 1763393644.6406946,
+  "execution_time_seconds": 89.82319378852844,
+  "output_data": {
+    "fundamental_analysis_length": 3050,
+    "analysis_preview": "### 嘉友国际（股票代码：sh.603871）基本面分析报告\n\n#### 1. 公司基本信息和行业背景\n\n- **公司名称**：嘉友国际\n- **股票代码**：sh.603871\n- **行业**：G58多式联运和运输代理业\n- **行业分类**：证监会行业分类\n\n#### 2. 最新财务报表数据\n\n由于部分数据获取失败，我们将使用已成功获取的数据进行分析。\n\n##### 资产负债表（2025年第三季度）\n\n- **数据日期**：2025-09-30\n- **净资产收益率（ROE）**：15.38%\n- **净利润率（NP Margin）**：13.40%\n- **毛利率（GP Margin）**：17.59%\n- **净利润**：8.80537亿\n- **每股收益（EPS TTM）**：0.776119\n- **总股本**：13.6801亿\n- **流通股本**：13.6801亿\n\n##### 利润表（2025年第三季度）\n\n- **数据日期**：2025-09-30\n- **净资产收益率（ROE）**：15.38%\n- **净利润率（NP Margin）**：13.40%\n- *",
+    "llm_execution_time": 87.875,
+    "total_execution_time": 89.82319378852844
+  },
+  "success": true,
+  "error": null
+}

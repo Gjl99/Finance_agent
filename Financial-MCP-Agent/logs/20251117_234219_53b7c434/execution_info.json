@@ -1,0 +1,57 @@
+{
+  "execution_id": "20251117_234219_53b7c434",
+  "start_time": "2025-11-17T23:42:19.013917",
+  "start_timestamp": 1763394139.013908,
+  "environment": {
+    "python_version": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:50:58) [GCC 12.3.0]",
+    "working_directory": "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent",
+    "environment_variables": {
+      "OPENAI_COMPATIBLE_MODEL": "Qwen/Qwen2.5-72B-Instruct",
+      "OPENAI_COMPATIBLE_BASE_URL": "https://api.siliconflow.cn/v1",
+      "OPENAI_COMPATIBLE_API_KEY": "***"
+    }
+  },
+  "end_time": "2025-11-17T23:44:45.801432",
+  "end_timestamp": 1763394285.8012316,
+  "total_execution_time_seconds": 146.7873237133026,
+  "success": true,
+  "error": null,
+  "status": "completed",
+  "summary": {
+    "agents_executed": [
+      {
+        "name": "main",
+        "success": false,
+        "execution_time": 0
+      },
+      {
+        "name": "fundamental_agent",
+        "success": false,
+        "execution_time": 20.069807767868042
+      },
+      {
+        "name": "news_agent",
+        "success": true,
+        "execution_time": 95.64640712738037
+      },
+      {
+        "name": "technical_agent",
+        "success": false,
+        "execution_time": 17.995635747909546
+      },
+      {
+        "name": "value_agent",
+        "success": false,
+        "execution_time": 17.82417917251587
+      },
+      {
+        "name": "summary_agent",
+        "success": true,
+        "execution_time": 50.63396120071411
+      }
+    ],
+    "llm_interactions_count": 2,
+    "tools_used_count": 0,
+    "total_files_created": 17
+  }
+}

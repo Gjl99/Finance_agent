@@ -1,0 +1,45 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-11T22:30:17.929061",
+  "start_timestamp": 1762871417.9290683,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error",
+      "news_analysis_error",
+      "technical_analysis_error"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:30:17.966000",
+  "end_timestamp": 1762871417.9660108,
+  "execution_time_seconds": 0.03658938407897949,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:30:17",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:30:17",
+    "analysis_timestamp": "2025-11-11T22:30:17.686426",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "fundamental_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "news_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "technical_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.",
+    "value_analysis_error": "Error during execution: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`."
+  },
+  "success": false,
+  "error": "Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`."
+}

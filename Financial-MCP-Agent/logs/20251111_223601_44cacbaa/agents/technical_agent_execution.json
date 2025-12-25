@@ -1,0 +1,33 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-11T22:36:01.743308",
+  "start_timestamp": 1762871761.743316,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-11T22:36:35.251757",
+  "end_timestamp": 1762871795.2517755,
+  "execution_time_seconds": 33.5078763961792,
+  "output_data": {
+    "technical_analysis_length": 1171,
+    "analysis_preview": "### 贵州茅台 技术面分析报告\n\n#### 免责声明\n本报告基于公开数据生成，仅供参考，不构成投资建议。投资决策需基于个人风险承受能力和研究。\n\n#### 公司基本信息\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **所属行业**: 未知\n- **上市日期**: 2001-08-27\n\n#### 技术面分析\n\n1. **最新收盘价**: 1458.9900\n2. **6个月价格变动**: -10.60%\n3. **20日均价**: 1447.33\n   - 当前价格高于20日均线 0.81%\n\n#### 价格趋势和技术形态\n- **趋势分析**: 过去6个月，贵州茅台的价格呈现下降趋势，跌幅为10.60%。然而，最近的价格已经有所回升，当前价格略高于20日均线，表明短期内可能有反弹的迹象。\n- **技术形态**: 从K线图来看，近期价格在1450元左右形成了一个相对稳定的支撑位，但尚未突破上方的阻力位。\n\n#### 成交量变化\n- **成交量分析**: 从历史数据来看，近期成交量有所放大，这可能表明市场对贵州茅台的兴趣增加，但也可能是多空双方的博",
+    "llm_execution_time": 31.73089623451233,
+    "total_execution_time": 33.5078763961792
+  },
+  "success": true,
+  "error": null
+}

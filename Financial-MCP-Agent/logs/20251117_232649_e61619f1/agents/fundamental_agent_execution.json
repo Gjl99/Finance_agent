@@ -1,0 +1,41 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-17T23:26:49.832132",
+  "start_timestamp": 1763393209.832139,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:27:11.678596",
+  "end_timestamp": 1763393231.6786137,
+  "execution_time_seconds": 21.84604263305664,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:26:49",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:26:49",
+    "analysis_timestamp": "2025-11-17T23:26:49.827916",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "value_analysis": "### 公司基本信息\n\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **上市日期**: 2001-08-27\n- **股票类型**: A股\n- **交易状态**: 交易中\n\n### 步骤 2: 获取并分析主要估值指标\n\n接下来，我们获取茅台的主要估值指标，包括市盈率（PE）、市净率（PB）和市销率（PS）。",
+    "fundamental_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "fundamental_analysis": "基本面分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+  },
+  "success": false,
+  "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+}

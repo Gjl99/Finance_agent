@@ -1,0 +1,33 @@
+{
+  "agent_name": "value_agent",
+  "start_time": "2025-11-17T23:26:50.188951",
+  "start_timestamp": 1763393210.1889582,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-17T23:27:03.972874",
+  "end_timestamp": 1763393223.9728932,
+  "execution_time_seconds": 13.783447980880737,
+  "output_data": {
+    "value_analysis_length": 173,
+    "analysis_preview": "### 公司基本信息\n\n- **股票代码**: sh.600519\n- **股票名称**: 贵州茅台\n- **上市日期**: 2001-08-27\n- **股票类型**: A股\n- **交易状态**: 交易中\n\n### 步骤 2: 获取并分析主要估值指标\n\n接下来，我们获取茅台的主要估值指标，包括市盈率（PE）、市净率（PB）和市销率（PS）。",
+    "llm_execution_time": 12.271666049957275,
+    "total_execution_time": 13.783447980880737
+  },
+  "success": true,
+  "error": null
+}

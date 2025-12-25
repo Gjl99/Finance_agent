@@ -1,0 +1,33 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-11T22:51:44.305635",
+  "start_timestamp": 1762872704.3056452,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-11T22:52:52.114639",
+  "end_timestamp": 1762872772.1146572,
+  "execution_time_seconds": 67.80847573280334,
+  "output_data": {
+    "news_analysis_length": 2196,
+    "analysis_preview": "### 茅台（股票代码：sh.600519）新闻分析报告\n\n#### 1. 爬取与茅台相关的最新新闻\n\n以下是爬取到的与茅台相关的最新新闻（前5条）：\n\n1. **贵州茅台酒股份有限公司 - 入网口**\n   - **来源**: 百度新闻\n   - **内容**: 在浏览网页之前，为践行社会理性饮酒倡导，保证体验完整的酱香之旅，我们需要确认您是否已满18岁。\n   - **链接**: [http://www.moutaichina.com/](http://www.moutaichina.com/)\n   - **情感分析**: 3（中性）\n   - **风险分析**: 1（极低风险）\n   - **潜在影响**: 该新闻主要是公司网站的入口页面，内容中性，对股价影响较小。\n\n2. **贵州茅台(600519)_股票行情,行情首页_中财网**\n   - **来源**: 百度新闻\n   - **内容**: 未提供详细内容\n   - **链接**: [https://quote.cfi.cn/600519.html](https://quote.cfi.cn/600519.html)\n  ",
+    "llm_execution_time": 66.2917058467865,
+    "total_execution_time": 67.80847573280334
+  },
+  "success": true,
+  "error": null
+}

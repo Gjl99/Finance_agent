@@ -1,0 +1,856 @@
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-10 10:43:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 10:52:26 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 10:52:33 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 10:58:02 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 10:58:02 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台作为中国白酒行业的领军企业，凭借强大的品牌壁垒、卓越的财务表现和稳定的现金流，展现出极高的投资吸引力。基本面分析显示其盈利能力强劲，成长性稳健，财务结构极其稳健。技术分析揭示了股价近期的宽幅震荡格局，但未出现明确的方向性突破。估值分析指出，贵州茅台的估值水平在行业内相对较低，且具备较高的股息收益率和DCF支持，内在价值被低估。新闻分析则反映了市场情绪的波动，但长期来看，品牌效应和市场需求的稳定性将助力股价回归合理区间。综合考虑，贵州茅台仍为优质的投资标的，建议投资者关注其突破信号并适时介入。
+
+## 公司概况
+贵州茅台...
+2025-08-10 10:58:02 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_105802.md
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 11:11:13 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 11:11:20 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 11:16:50 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 11:16:50 - src.agents.summary_agent - DEBUG - Final report preview: ...
+2025-08-10 11:16:50 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_111650.md
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 11:36:56 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 11:37:02 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 2118
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 11:42:32 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台 (sh.600519) 综合分析报告
+
+---
+
+## 执行摘要
+贵州茅台作为中国白酒行业的龙头企业，凭借其强大的品牌壁垒和高端定位，在2024年的财务表现依旧亮眼。尽管面临宏观经济波动和行业竞争加剧的挑战，茅台通过优化产品结构和强化直销渠道，展现了卓越的抗风险能力和成长潜力。技术面上，股票在2025年上半年经历了阶段性回调，但整体趋势依然偏弱。估值方面，当前市盈率略低于历史均值，具备一定安全边际。综合来看，贵州茅台是长期价值投资者的理想选择。
+
+---
+
+## 公司概况
+- **股票代码**：sh.600519  
+- **公司名称**：贵州茅台  
+- **上市日期**：2001...
+2025-08-10 11:42:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/self-learn/Financial-MCP-Agent/reports/report_茅台_600519_20250810_114232.md
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 20:44:12 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:44:12 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1049, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 881, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 321, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 144, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:44:12 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_204412.md
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-10 20:52:13 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-10 20:52:13 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:52:14 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/autodl-tmp/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 1049, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 881, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 321, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 532, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision, repo_type)
+  File "/root/miniconda3/lib/python3.12/site-packages/transformers/utils/hub.py", line 144, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/root/miniconda3/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-10 20:52:14 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/error_report_腾讯_00700_20250810_205213.md
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-10 21:03:34 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-seed-1-6-250615
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 5747
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-10 21:05:08 - src.agents.summary_agent - DEBUG - Final report preview: # [贵州茅台](sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台作为中国高端白酒行业绝对龙头，展现出卓越的盈利能力、财务稳健性和市场竞争力。当前估值处于历史相对低位，基本面强劲支撑长期投资价值。技术面显示短期震荡整理但中长期趋势向好。近期公司在品牌建设、产品创新和人才储备方面持续发力，市场情绪整体积极。综合评估：**风险等级：中低**，**预期回报：中长期年化10-15%**，建议投资者现价分批建仓，适合长期价值投资者持有。
+
+## 公司概况
+贵州茅台(sh.600519)是中国高端白酒行业的绝对领导者，属于证监会行业分类中的C15酒、饮料和精制茶制造业。公司核心业务为茅台酒及...
+2025-08-10 21:05:08 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/autodl-tmp/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250810_210508.md
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:28:53 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:31:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-08-19 22:31:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model doubao-1-5-thinking-vision-pro-250428
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 4487
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-19 22:33:25 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台(sh.600519) 综合分析报告
+
+## 执行摘要  
+截至分析基准日2025-08-19，茅台技术面呈现**中期下行、短期震荡磨底**特征；新闻面以行情类资讯为主，情绪中性但短期交易情绪传导风险较高；基本面与估值分析因数据获取限制存在信息缺失。综合来看，短期需警惕情绪驱动的波动风险，中长期需锚定基本面（业绩、政策）与估值修复逻辑。投资风险等级暂评**中高风险**，预期回报需待基本面/估值数据补全后明确，建议投资者结合自身风险承受能力谨慎决策。  
+
+
+## 公司概况  
+贵州茅台（股票代码：sh.600519）是**中国白酒行业绝对龙头**，主营酱香型白酒的生产与销售，核心产品“...
+2025-08-19 22:33:25 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223325.md
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 4248
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-08-19 22:33:30 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台(sh.600519) 综合分析报告
+
+## 执行摘要  
+截至分析基准日2025-08-19，贵州茅台作为白酒行业绝对龙头，基本面展现强盈利能力与品牌护城河，技术面处于短期反弹周期，估值处于消费龙头合理区间，新闻层面反映市场持续高关注度但缺乏基本面质变信息。综合来看，**投资价值呈现“长期稳健、短期博弈性增强”特征**：  
+- 风险等级：中低风险（长期）、中风险（短期）；  
+- 预期回报：长期（1 - 3年）看业绩增长与估值修复，预期年化回报8% - 15%；短期（1 - 2月）看反弹高度，若突破1500元阻力，阶段回报或达5% - 8%。  
+
+
+## 公司概况  
+贵州茅...
+2025-08-19 22:33:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /root/code/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20250819_223330.md
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-19 22:36:44 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:36:44 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 946, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 778, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 471, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 134, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:36:44 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_223644.md
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/self-learn/FinR1...
+2025-08-19 22:47:04 - src.agents.summary_agent - ERROR - ✗ Failed to load FinR1 model: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:47:04 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 424, in cached_files
+    hf_hub_download(
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 427, in summary_agent
+    model, tokenizer = load_finr1_model()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 115, in load_finr1_model
+    raise e
+  File "/root/code/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 99, in load_finr1_model
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 946, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/tokenization_auto.py", line 778, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 266, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 471, in cached_files
+    _get_cache_file_to_return(path_or_repo_id, filename, cache_dir, revision) for filename in full_filenames
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 134, in _get_cache_file_to_return
+    resolved_file = try_to_load_from_cache(path_or_repo_id, full_filename, cache_dir=cache_dir, revision=revision)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/root/code/self-learn/FinR1'. Use `repo_type` argument if needed.
+2025-08-19 22:47:04 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /root/code/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20250819_224704.md
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: local
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using local FinR1 model...
+2025-08-19 22:49:32 - src.agents.summary_agent - INFO - 🔄 Loading FinR1 model from /root/code/Finance/FinR1...
+2025-08-19 22:49:40 - src.agents.summary_agent - INFO - ✓ FinR1 model loaded successfully
+2025-11-06 21:39:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-06 21:39:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-06 21:39:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-06 21:39:30 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-06 21:39:30 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 414, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.PermissionDeniedError: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}
+2025-11-06 21:39:30 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251106_213930.md
+2025-11-11 22:30:17 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-11 22:30:17 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-11 22:30:17 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-11 22:30:17 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-11 22:30:18 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 402, in summary_agent
+    llm = ChatOpenAI(
+          ^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/load/serializable.py", line 130, in __init__
+    super().__init__(*args, **kwargs)
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/pydantic/main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 787, in validate_environment
+    or _get_default_httpx_client(self.openai_api_base, self.request_timeout)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/_client_utils.py", line 92, in _get_default_httpx_client
+    return _cached_sync_httpx_client(base_url, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/_client_utils.py", line 70, in _cached_sync_httpx_client
+    return _build_sync_httpx_client(base_url, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/_client_utils.py", line 47, in _build_sync_httpx_client
+    return _SyncHttpxClientWrapper(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_base_client.py", line 794, in __init__
+    super().__init__(**kwargs)
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/httpx/_client.py", line 700, in __init__
+    else self._init_proxy_transport(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/httpx/_client.py", line 750, in _init_proxy_transport
+    return HTTPTransport(
+           ^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/httpx/_transports/default.py", line 191, in __init__
+    raise ImportError(
+ImportError: Using SOCKS proxy, but the 'socksio' package is not installed. Make sure to install httpx using `pip install httpx[socks]`.
+2025-11-11 22:30:18 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251111_223018.md
+2025-11-11 22:37:16 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-11 22:37:16 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-11 22:37:16 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-11 22:37:16 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-11 22:38:31 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 3859
+2025-11-11 22:38:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-11 22:38:31 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+基于2025年11月11日的分析，贵州茅台（sh.600519）的股价在近期有所回升，但整体趋势仍处于调整阶段。技术面上，价格在1450元左右形成了支撑位，但尚未突破1470元的阻力位。新闻分析显示市场情绪较为中性，没有明显的正面或负面新闻。由于基本面和估值分析数据缺失，建议投资者保持中性的投资态度，关注公司的业绩报告和行业动态，根据个人风险承受能力和投资策略进行决策。
+
+## 公司概况
+- **股票代码**: sh.600519
+- **股票名称**: 贵州茅台
+- **所属行业**: 白酒行业
+- **上市日期**: 2...
+2025-11-11 22:38:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251111_223831.md
+2025-11-11 22:46:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-11 22:46:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-11 22:46:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-11 22:46:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-11 22:46:32 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: AsyncCompletions.create() got an unexpected keyword argument 'strict'
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 415, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1414, in _agenerate
+    response = await self.async_client.create(**payload)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: AsyncCompletions.create() got an unexpected keyword argument 'strict'
+2025-11-11 22:46:32 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251111_224632.md
+2025-11-11 22:52:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-11 22:52:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-11 22:52:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-11 22:52:52 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-11 22:54:00 - src.agents.summary_agent - INFO - 截断报告在时间信息行之后，截断位置: 3558
+2025-11-11 22:54:00 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-11 22:54:00 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台是中国白酒行业的龙头企业，具有强大的品牌影响力和稳定的财务表现。技术分析显示股价在近期呈现上升趋势，估值分析表明当前股价相对合理，新闻分析显示公司品牌宣传积极，市场表现良好。综合来看，贵州茅台是一个值得长期投资的标的。建议投资者关注公司的财务数据和市场动态，以做出更明智的投资决策。
+
+## 公司概况
+- **股票代码**: sh.600519
+- **股票名称**: 贵州茅台
+- **上市日期**: 2001-08-27
+- **类型**: A股
+- **状态**: 交易中
+- **主营业务**: 贵州茅台主要从事茅...
+2025-11-11 22:54:00 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251111_225400.md
+2025-11-17 23:13:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:13:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:13:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:13:02 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:14:40 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 5217
+2025-11-17 23:14:40 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-17 23:14:40 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+本报告综合了基本面分析、技术分析、估值分析和新闻分析的结果，对贵州茅台（股票代码：sh.600519）进行了全面评估。尽管基本面分析数据缺失，但技术分析、估值分析和新闻分析提供了有价值的见解。综合来看，贵州茅台的股价在短期内可能继续在1445元至1475元之间波动，但整体趋势仍偏弱。长期投资者可以继续持有，但需关注公司治理和行业动态。建议投资者在短期内关注市场反应和成交量变化，同时保持对宏观经济环境的敏感度。
+
+## 公司概况
+贵州茅台是中国白酒行业的龙头企业，以其高质量的茅台酒闻名。公司成立于1999年，并于2001年8月...
+2025-11-17 23:14:40 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251117_231440.md
+2025-11-17 23:21:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:21:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:21:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:21:04 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:21:29 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 415, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1112, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1070, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1323, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1368, in _agenerate
+    return await run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 603, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 594, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given
+2025-11-17 23:21:29 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251117_232129.md
+2025-11-17 23:22:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:22:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:22:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:22:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:23:27 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 415, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 405, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1017, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 975, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1145, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1415, in _agenerate
+    return await run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 617, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 608, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given
+2025-11-17 23:23:27 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251117_232327.md
+2025-11-17 23:24:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:24:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:24:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:24:12 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:24:50 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:24:50 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:24:50 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:24:50 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:25:21 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 1763
+2025-11-17 23:25:21 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-17 23:25:21 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+由于基本面分析、技术分析、估值分析和新闻分析过程中均出现数据错误，无法提供完整的分析数据。然而，基于茅台（sh.600519）的历史表现和市场地位，我们仍然可以提供一些初步的见解。茅台是中国高端白酒市场的领军企业，拥有强大的品牌影响力和稳定的盈利能力。尽管当前数据不完整，但茅台的长期投资价值依然值得关注。建议投资者在进一步获取详细数据后，再做出投资决策。风险等级为中等，预期回报为中到高。
+
+## 公司概况
+茅台是中国最大的高端白酒生产企业，成立于1951年，总部位于贵州省仁怀市。公司主要产品包括茅台酒、系列酒等，其中茅台酒是中国...
+2025-11-17 23:25:21 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251117_232521.md
+2025-11-17 23:25:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:25:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:25:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:25:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:26:19 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 1433
+2025-11-17 23:26:19 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-17 23:26:19 - src.agents.summary_agent - DEBUG - Final report preview: # 茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+尽管在基本面分析、技术分析、估值分析和新闻分析过程中遇到了数据输入错误，但基于目前可用的信息，茅台（sh.600519）仍然是一只值得考虑的投资标的。公司在高端白酒市场的领导地位、稳定的财务状况和良好的成长性使其具有较高的投资价值。然而，投资者应关注市场波动和行业风险，谨慎决策。
+
+## 公司概况
+贵州茅台酒股份有限公司（简称“茅台”）是中国高端白酒市场的领导者，拥有悠久的历史和卓越的品牌声誉。公司主要产品为茅台酒，包括飞天茅台、茅台王子酒等。茅台在中国乃至全球高端白酒市场中占据重要地位，享有极高的品牌忠诚度和市场认可度。
+
+#...
+2025-11-17 23:26:19 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251117_232619.md
+2025-11-17 23:28:25 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:28:25 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:28:25 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:28:25 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:29:58 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 5169
+2025-11-17 23:29:58 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-17 23:29:58 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台（sh.600519）是中国白酒行业的龙头企业，具有强大的品牌影响力和市场地位。基于技术分析、估值分析和新闻分析的结果，我们得出以下结论：
+- **技术分析**：价格呈上升趋势，技术指标显示多头趋势，但接近2000元的阻力位时需关注市场反应。
+- **估值分析**：市盈率、市净率和市销率均处于合理水平，但需关注行业整体估值水平。
+- **新闻分析**：市场对茅台的股价走势和基本面保持中性态度，没有出现重大利好或利空消息。
+
+**投资建议**：
+- **风险等级**：中等
+- **预期回报**：中长期持有有望获得稳定回...
+2025-11-17 23:29:58 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251117_232958.md
+2025-11-17 23:34:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:34:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:34:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:34:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:35:35 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 4122
+2025-11-17 23:35:35 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for Unknown Company (sh.603871).
+2025-11-17 23:35:35 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际（股票代码：sh.603871）综合分析报告
+
+## 执行摘要
+嘉友国际在盈利能力、运营效率和偿债能力方面表现较好，但成长能力有所下降。公司分红比例较高，股东回报较好。技术分析和估值分析数据出现部分缺失，但基于现有信息，建议投资者关注公司未来的发展战略和市场环境变化，以评估其长期投资价值。短期来看，市场情绪较为中性，没有明显的投资机会或风险。综合考虑，建议谨慎投资，目标价格为15.50元，投资时间范围为6-12个月，适合风险偏好中等的投资者。
+
+## 公司概况
+嘉友国际是一家主要从事多式联运和运输代理业的公司，属于证监会行业分类下的G58多式联运和运输代理业。公司主要业务包括物流运...
+2025-11-17 23:35:35 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_603871_这个股票值得买吗_603871_20251117_233535.md
+2025-11-17 23:43:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:43:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:43:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:43:55 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:44:45 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3006
+2025-11-17 23:44:45 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for Unknown Company (sh.603871).
+2025-11-17 23:44:45 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际 (sh.603871) 综合分析报告
+
+## 执行摘要
+嘉友国际（股票代码：sh.603871）的综合分析显示，公司在当前市场环境中表现较为稳定。尽管基本面分析和技术分析数据存在部分缺失，但新闻分析和估值分析提供了重要的参考信息。总体来看，嘉友国际的经营状况健康，市场情绪中性偏正面。短期内，股价可能受到市场整体表现的正面影响，建议关注市场动态和公司公告。长期来看，公司具有较高的投资价值，建议长期持有。但投资者需注意市场波动和行业政策变化带来的潜在风险。
+
+## 公司概况
+嘉友国际是一家主要从事国际物流服务的公司，业务涵盖国际货运代理、仓储、配送等。公司在行业内具有较高的市场地位，...
+2025-11-17 23:44:45 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_603871_这个股票值得买吗_603871_20251117_234445.md
+2025-11-17 23:49:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-17 23:49:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-17 23:49:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-17 23:49:28 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-17 23:50:32 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3731
+2025-11-17 23:50:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 茅台 (sh.600519).
+2025-11-17 23:50:32 - src.agents.summary_agent - DEBUG - Final report preview: # 贵州茅台 (sh.600519) 综合分析报告
+
+## 执行摘要
+贵州茅台（股票代码：sh.600519）是中国高端白酒行业的龙头企业，拥有强大的品牌影响力和稳定的盈利能力。尽管基本面和技术分析数据出现了一些错误，但通过现有的估值分析和新闻分析，我们得出以下结论：
+
+- **投资建议**: 基于当前市场情绪和公司基本面的稳定性，建议长期投资者可以考虑持有茅台。短期投资者应关注技术指标和市场情绪的变化，适时调整仓位。
+- **风险等级**: 中等风险
+- **预期回报**: 中期稳定增长
+
+## 公司概况
+贵州茅台是中国高端白酒行业的领军企业，成立于1999年，2001年8月27日在上海证券...
+2025-11-17 23:50:32 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_茅台_600519_20251117_235032.md
+2025-11-18 19:52:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-18 19:52:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-18 19:52:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-18 19:52:32 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-18 19:53:41 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3828
+2025-11-18 19:53:41 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 宁德时代 (Unknown Stock).
+2025-11-18 19:53:41 - src.agents.summary_agent - DEBUG - Final report preview: # 宁德时代 (SZ.300750) 综合分析报告
+
+## 执行摘要
+宁德时代作为全球领先的动力电池供应商，具有强大的技术创新能力和市场地位。然而，近期股价因解禁和市场波动出现下跌。长期来看，公司在电池技术领域的领先地位和持续的创新将为其带来稳定的增长。短期内，投资者应保持谨慎，关注股价回调后的买入机会。长期投资者可以考虑在合适的价格区间逐步建仓，长期持有。风险等级为中等，预期回报较高。
+
+## 公司概况
+宁德时代（CATL）成立于2011年，总部位于中国福建省宁德市。公司主要从事新能源汽车动力电池系统、储能系统的研发、生产和销售。作为全球动力电池领域的龙头企业，宁德时代在技术创新、市场占有率...
+2025-11-18 19:53:41 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_给我一下宁德时代的财务状况_20251118_195341.md
+2025-11-21 19:51:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 19:51:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 19:51:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 19:51:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 19:52:30 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3038
+2025-11-21 19:52:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 嘉友国际 (Unknown Stock).
+2025-11-21 19:52:30 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际 (603871) 综合分析报告
+
+## 执行摘要
+嘉友国际（股票代码：603871）是一家在中国A股上市的公司。根据现有的新闻分析，市场对嘉友国际的报道较为中立，近期资金呈现流出状态，但机构评级以买入为主，表明长期投资价值较高。综合来看，短期内股价可能面临一定压力，但长期来看具有较高的投资潜力。建议投资者保持谨慎，关注公司基本面和市场动态，做好风险管理。
+
+## 公司概况
+嘉友国际是一家主要从事国际物流和供应链管理服务的公司。公司业务涵盖国际货运代理、仓储、配送、报关、报检等全方位的物流服务。在行业内具有较高的知名度和市场地位，主要客户包括国内外大型企业。
+
+## 基本面分析
+由...
+2025-11-21 19:52:30 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_嘉友国际_20251121_195230.md
+2025-11-21 19:54:14 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 19:54:14 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 19:54:14 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 19:54:14 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 20:05:00 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 20:05:00 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 20:05:00 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 20:05:00 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 20:06:17 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 4167
+2025-11-21 20:06:17 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 嘉友国际 (Unknown Stock).
+2025-11-21 20:06:17 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际 (603871) 综合分析报告
+
+## 执行摘要
+嘉友国际（股票代码：603871）是一家主要从事跨境多式联运、供应链贸易和物流基础设施投资运营业务的公司。根据当前的市场数据和分析，公司的基本面较为稳健，但缺乏详细的财务数据。技术分析显示股价近期表现较为平稳，估值分析因数据错误无法提供详细结果。新闻分析显示市场对公司的态度较为中立，没有明显的利多或利空消息。综合来看，短期内没有明显的投资机会或风险，建议投资者保持观望，关注公司的最新财报和行业动态。长期投资者可以关注公司的业务拓展和业绩增长情况，以及行业政策的变化。
+
+## 公司概况
+嘉友国际是一家专注于跨境多式联运、供应链贸易和...
+2025-11-21 20:06:17 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_嘉友国际_20251121_200617.md
+2025-11-21 20:12:47 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 20:12:47 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 20:12:47 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 20:12:47 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 20:14:04 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 4225
+2025-11-21 20:14:04 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 嘉友国际 (sh.603871).
+2025-11-21 20:14:04 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际 (sh.603871) 综合分析报告
+
+## 执行摘要
+嘉友国际（股票代码：sh.603871）是一家主要从事跨境多式联运和供应链贸易的公司。基于基本面、技术、估值和新闻分析，我们得出以下结论：公司基本面稳健，但技术分析数据缺失，估值分析数据不完整。新闻分析显示市场情绪中性，资金流向呈流出状态。综合来看，建议投资者保持谨慎，关注公司的业绩报告和市场动态，寻找合适的买入时机。
+
+## 公司概况
+嘉友国际（股票代码：sh.603871）于2018年2月6日在上海证券交易所上市，是一家A股公司。公司主要从事跨境多式联运和供应链贸易业务，具有较强的行业地位和市场竞争力。
+
+## 基本面分...
+2025-11-21 20:14:04 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_嘉友国际_603871_20251121_201404.md
+2025-11-21 21:07:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 21:07:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 21:07:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 21:07:59 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 21:08:18 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 995
+2025-11-21 21:08:18 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 这支 (Unknown Stock).
+2025-11-21 21:08:18 - src.agents.summary_agent - DEBUG - Final report preview: # [公司名称]([股票代码]) 综合分析报告
+
+## 执行摘要
+由于提供的股票代码 "Unknown" 无效，无法进行具体的投资分析和推荐。请提供一个有效的股票代码或公司名称，以便我们能够获取相关数据并进行详细的分析。
+
+## 公司概况
+无法提供公司概况，因为提供的股票代码 "Unknown" 无效。请提供一个有效的股票代码或公司名称，以便我们能够获取相关信息。
+
+## 基本面分析
+无法进行基本面分析，因为提供的股票代码 "Unknown" 无效。基本面分析需要详细的财务报表、商业模式和公司基本面数据。请提供一个有效的股票代码或公司名称，以便我们能够获取相关数据并进行分析。
+
+## 技术分析...
+2025-11-21 21:08:18 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_920091这支股票值得购买吗_20251121_210818.md
+2025-11-21 21:10:46 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 21:10:46 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 21:10:46 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 21:10:46 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 21:11:49 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3375
+2025-11-21 21:11:49 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 这支 (920091).
+2025-11-21 21:11:49 - src.agents.summary_agent - DEBUG - Final report preview: # 大鹏工业(920091) 综合分析报告
+
+## 执行摘要
+大鹏工业(920091)在北交所的申购和发行结果非常积极，市场对其前景持乐观态度。公司加速布局机器视觉检测产品，显示出其在技术领域的持续创新和市场拓展能力。短期内，股价可能受到积极影响，建议投资者关注其上市后的表现。长期来看，公司具有良好的成长潜力，值得投资者关注。然而，由于基本面和技术分析数据缺失，建议投资者在做出投资决策时保持谨慎，并关注公司的财务状况和市场动态。
+
+## 公司概况
+大鹏工业(920091)是一家专注于机器视觉检测产品和技术的公司。公司主要产品包括视觉检测设备、自动化检测系统等，广泛应用于制造业、电子行业等领域。...
+2025-11-21 21:11:49 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_这支_920091_20251121_211149.md
+2025-11-21 21:16:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-21 21:16:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-21 21:16:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-21 21:16:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-21 21:17:35 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 4690
+2025-11-21 21:17:35 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 这支 (920091).
+2025-11-21 21:17:35 - src.agents.summary_agent - DEBUG - Final report preview: # 大鹏工业(920091) 综合分析报告
+
+## 执行摘要
+大鹏工业(920091)是一家在北交所上市的新股，其在机器视觉检测领域的积极布局显示了其技术竞争力。发行结果良好，中签率低，市场对其股票的需求较高。短期内，由于市场关注度高，股价可能有上涨趋势。长期来看，公司有较好的发展前景。建议投资者关注市场动态，适时介入，长期持有。
+
+## 公司概况
+大鹏工业(920091)是一家专注于机器视觉检测产品和技术的公司。公司主要产品包括各种视觉检测设备和解决方案，广泛应用于制造业、电子、汽车等行业。公司在技术领域有较强的研发能力和市场竞争力。
+
+## 基本面分析
+由于提供的股票代码 `920091`...
+2025-11-21 21:17:35 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_这支_920091_20251121_211735.md
+2025-11-23 22:41:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-23 22:41:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-23 22:41:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-23 22:41:08 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-23 22:41:59 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3196
+2025-11-23 22:41:59 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 这支股票 (Unknown Stock).
+2025-11-23 22:41:59 - src.agents.summary_agent - DEBUG - Final report preview: # 浦发银行 (sh.600000) 综合分析报告
+
+## 执行摘要
+浦发银行（股票代码：sh.600000）在当前市场环境下表现较为稳健。基本面分析显示公司财务状况良好，盈利能力较强，但成长性一般。技术分析显示股价处于区间震荡，技术指标中性，短期内缺乏明确的上行或下行趋势。估值分析显示公司估值合理，与行业平均水平相当。新闻分析显示市场对浦发银行的态度中性，新闻内容主要集中在股票行情和走势图，缺乏具体的重大事件。综合来看，浦发银行是一个较为稳健的投资选择，适合风险偏好较低的长期投资者。建议投资者关注公司的基本面和行业动态，避免盲目追涨杀跌。
+
+## 公司概况
+浦发银行全称为上海浦东发展银行股份...
+2025-11-23 22:41:59 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_920091一下这支股票_20251123_224159.md
+2025-11-23 22:44:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-23 22:44:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-23 22:44:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-23 22:44:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-23 22:49:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-23 22:49:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-23 22:49:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-23 22:49:54 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-23 22:51:00 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 4025
+2025-11-23 22:51:00 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for Unknown Company (sz.920091).
+2025-11-23 22:51:00 - src.agents.summary_agent - DEBUG - Final report preview: # Unknown Company (sz.920091) 综合分析报告
+
+## 执行摘要
+由于股票代码 `sz.920091` 无法获取到任何相关信息，包括公司基本信息、财务数据、技术分析和估值数据，因此无法进行全面的股票分析。新闻分析显示，当前新闻主要涉及影视资源和车辆维护，未发现对公司业务或股价有重大影响的新闻。基于现有信息，建议投资者谨慎对待该股票，进一步核实股票代码的正确性和数据源的可靠性。如果公司近期有重大公告或业绩报告，建议重点关注这些信息。
+
+## 公司概况
+在尝试获取公司基本信息和行业背景时，发现股票代码 `sz.920091` 没有找到任何相关信息。这可能是因为该股票代码不...
+2025-11-23 22:51:00 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_bj.920091这个股票值得买吗_920091_20251123_225100.md
+2025-11-23 23:09:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-23 23:09:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-23 23:09:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-23 23:09:38 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-23 23:10:31 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 3138
+2025-11-23 23:10:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for 这支股票 (sz.920091).
+2025-11-23 23:10:31 - src.agents.summary_agent - DEBUG - Final report preview: # 大鹏工业 (sz.920091) 综合分析报告
+
+## 执行摘要
+大鹏工业（股票代码：sz.920091）在2025年11月23日的综合分析显示，公司具有显著的技术优势和市场地位，尤其是在工业精密清洗装备及机器视觉检测设备领域。上市首日表现抢眼，股价开盘大涨290%，显示出市场对其前景的强烈看好。然而，基本面和技术分析数据不完整，估值分析也存在错误。基于现有信息，建议投资者短期内关注市场情绪和技术指标，适当参与；长期关注公司的业绩表现和技术进展，长期持有。风险等级为中等，建议投资者保持谨慎，分散投资风险。
+
+## 公司概况
+大鹏工业是一家专注于工业精密清洗装备及机器视觉检测设备研发与销售的...
+2025-11-23 23:10:31 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_这支股票_920091_20251123_231031.md
+2025-11-23 23:16:35 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-23 23:16:35 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-23 23:16:35 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-23 23:16:35 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-23 23:18:07 - src.agents.summary_agent - INFO - 截断报告在'分析基准时间'行之后，截断位置: 5089
+2025-11-23 23:18:07 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Final report generated for Unknown Company (sh.603871).
+2025-11-23 23:18:07 - src.agents.summary_agent - DEBUG - Final report preview: # 嘉友国际 (sh.603871) 综合分析报告
+
+## 执行摘要
+嘉友国际（股票代码：sh.603871）是一家主要从事跨境多式联运、供应链贸易等业务的物流公司。根据技术分析、估值分析和新闻分析的结果，嘉友国际的股价整体呈现波动上升的趋势，但近期出现了一波回调。技术指标显示短期趋势偏弱，但有形成金叉的可能。新闻分析显示市场情绪较为中性，短期内对股价影响不大。综合来看，嘉友国际的股价短期内可能维持当前水平，建议投资者保持观望。长期投资者可以关注国家物流枢纽建设的进展，以及公司在跨境多式联运、供应链贸易等领域的表现。
+
+## 公司概况
+嘉友国际是一家主要从事跨境多式联运、供应链贸易等业务的物流...
+2025-11-23 23:18:07 - src.agents.summary_agent - INFO - ✓ SummaryAgent: Report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/report_603871这个股票怎么样_603871_20251123_231807.md
+2025-11-24 10:43:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-11-24 10:43:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-11-24 10:43:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-11-24 10:43:27 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-11-24 10:44:06 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 415, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 421, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1128, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1086, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1339, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1587, in _agenerate
+    return await run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 603, in run_in_executor
+    return await asyncio.get_running_loop().run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/runnables/config.py", line 594, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1418, in _create_chat_result
+    message = _convert_dict_to_message(res["message"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/utils/chat_openai_wrapper.py", line 43, in _patched_convert_dict_to_message
+    logger.debug(f"Found {len(tool_calls)} tool calls")
+                          ^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2025-11-24 10:44:06 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_嘉友国际_603871_20251124_104406.md
+2025-12-14 19:52:05 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Starting to consolidate analyses.
+2025-12-14 19:52:05 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using model choice: api
+2025-12-14 19:52:05 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Using OpenAI API...
+2025-12-14 19:52:05 - src.agents.summary_agent - INFO - 🔄 SummaryAgent: Creating ChatOpenAI with model Qwen/Qwen2.5-72B-Instruct
+2025-12-14 19:52:06 - src.agents.summary_agent - ERROR - ✗ SummaryAgent: Error generating final report: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+Traceback (most recent call last):
+  File "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/src/agents/summary_agent.py", line 415, in summary_agent
+    llm_message = await llm.ainvoke(summary_prompt_messages)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 421, in ainvoke
+    llm_result = await self.agenerate_prompt(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1128, in agenerate_prompt
+    return await self.agenerate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1086, in agenerate
+    raise exceptions[0]
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 1339, in _agenerate_with_cache
+    result = await self._agenerate(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1580, in _agenerate
+    raise e
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/langchain_openai/chat_models/base.py", line 1573, in _agenerate
+    raw_response = await self.async_client.with_raw_response.create(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_legacy_response.py", line 381, in wrapped
+    return cast(LegacyAPIResponse[R], await func(*args, **kwargs))
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 2585, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/agent/lib/python3.12/site-packages/openai/_base_client.py", line 1594, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'message': 'Request was rejected due to rate limiting. Details: TPM limit reached.', 'data': None}
+2025-12-14 19:52:06 - src.agents.summary_agent - INFO - ✗ SummaryAgent: Error report saved to /home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251214_195206.md

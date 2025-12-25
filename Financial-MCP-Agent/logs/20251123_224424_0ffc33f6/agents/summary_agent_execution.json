@@ -1,0 +1,30 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-23T22:44:27.031251",
+  "start_timestamp": 1763909067.0312684,
+  "input_data": {
+    "user_query": "920091分析一下这支股票",
+    "available_analyses": {
+      "fundamental": false,
+      "technical": false,
+      "value": false,
+      "news": false
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error",
+      "value_analysis_error",
+      "news_analysis_error",
+      "technical_analysis_error"
+    ]
+  },
+  "status": "started"
+}

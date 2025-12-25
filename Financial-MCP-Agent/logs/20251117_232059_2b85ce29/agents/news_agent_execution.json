@@ -1,0 +1,41 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-17T23:20:59.978634",
+  "start_timestamp": 1763392859.9786406,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:21:04.298562",
+  "end_timestamp": 1763392864.2985752,
+  "execution_time_seconds": 4.319584608078003,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:20:59",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:20:59",
+    "analysis_timestamp": "2025-11-17T23:20:59.970391",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "fundamental_analysis_error": "Error during execution: name 'ChatOpenAI' is not defined",
+    "news_analysis_error": "No MCP tools available."
+  },
+  "success": false,
+  "error": "No MCP tools available"
+}

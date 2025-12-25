@@ -1,0 +1,46 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-17T23:25:42.727461",
+  "start_timestamp": 1763393142.7274687,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:25:54.961744",
+  "end_timestamp": 1763393154.9617696,
+  "execution_time_seconds": 12.233751058578491,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:25:42",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:25:42",
+    "analysis_timestamp": "2025-11-17T23:25:42.723259",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "technical_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "technical_analysis": "技术分析过程中出现错误: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "news_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'query': '茅台', 'top_k': 5}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "news_analysis": "新闻分析过程中出现错误: 1 validation error for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'query': '茅台', 'top_k': 5}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "fundamental_analysis_error": "Error in MCP or agent execution: 2 validation errors for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\ninvalid_tool_calls.1.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type",
+    "fundamental_analysis": "基本面分析过程中出现错误: 2 validation errors for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\ninvalid_tool_calls.1.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+  },
+  "success": false,
+  "error": "2 validation errors for AIMessage\ninvalid_tool_calls.0.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type\ninvalid_tool_calls.1.args\n  Input should be a valid string [type=string_type, input_value={'code': 'sh.600519'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type"
+}

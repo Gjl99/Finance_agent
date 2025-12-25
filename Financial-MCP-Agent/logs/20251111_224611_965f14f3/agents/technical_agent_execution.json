@@ -1,0 +1,40 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-11T22:46:11.811886",
+  "start_timestamp": 1762872371.811895,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:46:13.338006",
+  "end_timestamp": 1762872373.3380156,
+  "execution_time_seconds": 1.525627851486206,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:46:11",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:46:11",
+    "analysis_timestamp": "2025-11-11T22:46:11.594504",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis_error": "Error in MCP or agent execution: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "technical_analysis": "技术分析过程中出现错误: AsyncCompletions.create() got an unexpected keyword argument 'strict'"
+  },
+  "success": false,
+  "error": "AsyncCompletions.create() got an unexpected keyword argument 'strict'"
+}

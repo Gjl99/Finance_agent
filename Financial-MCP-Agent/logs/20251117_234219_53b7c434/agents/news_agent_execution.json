@@ -1,0 +1,32 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-17T23:42:19.513616",
+  "start_timestamp": 1763394139.5136297,
+  "input_data": {
+    "user_query": "603871 这个股票值得买吗",
+    "stock_code": "sh.603871",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-17T23:43:55.160589",
+  "end_timestamp": 1763394235.1606076,
+  "execution_time_seconds": 95.64640712738037,
+  "output_data": {
+    "news_analysis_length": 2134,
+    "analysis_preview": "### 嘉友国际（股票代码：sh.603871）新闻分析报告\n\n#### 1. 爬取与嘉友国际相关的最新新闻\n\n以下是爬取到的与嘉友国际相关的最新新闻（至少5条）：\n\n1. **东方财富网 - 嘉友国际(603871)_股票价格_行情_走势图**\n   - **内容**: 提供嘉友国际(603871)股票的行情走势、五档盘口、逐笔交易等实时行情数据,及嘉友国际(603871)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板块、财务指标、机构观点、行业排名、估值水平、股吧互动等与嘉友国际(603871)相关的信息。\n   - **风险分析**: 3 (中等风险)\n   - **情感分析**: 3 (中性)\n   - **链接**: [东方财富网](https://quote.eastmoney.com/SH603871.html)\n\n2. **新浪财经 - 嘉友国际(sh603871)**\n   - **内容**: 包含富时中国A50指数期货涨幅、飓风“海伦妮”导致的死亡人数、国家发展改革委发布新一批国家物流枢纽建设名单等信息。\n   - **",
+    "llm_execution_time": 93.96832966804504,
+    "total_execution_time": 95.64640712738037
+  },
+  "success": true,
+  "error": null
+}

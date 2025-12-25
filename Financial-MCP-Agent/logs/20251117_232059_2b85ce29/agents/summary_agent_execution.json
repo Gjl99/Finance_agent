@@ -1,0 +1,53 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-17T23:21:04.334102",
+  "start_timestamp": 1763392864.3341181,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "available_analyses": {
+      "fundamental": false,
+      "technical": false,
+      "value": false,
+      "news": false
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "fundamental_analysis_error",
+      "news_analysis_error",
+      "value_analysis_error",
+      "technical_analysis_error"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:21:29.615858",
+  "end_timestamp": 1763392889.6158812,
+  "execution_time_seconds": 25.28094506263733,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:20:59",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:20:59",
+    "analysis_timestamp": "2025-11-17T23:20:59.970391",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "fundamental_analysis_error": "Error during execution: name 'ChatOpenAI' is not defined",
+    "news_analysis_error": "No MCP tools available.",
+    "value_analysis_error": "No MCP tools available.",
+    "technical_analysis_error": "No MCP tools available.",
+    "summary_error": "Error generating final report: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given",
+    "final_report": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Not available\n        - Technical Analysis: Not available\n        - Value Analysis: Not available\n        - News Analysis: Not available\n        \n        Please review the individual analyses directly for more information.\n        ",
+    "report_path": "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251117_232129.md"
+  },
+  "success": false,
+  "error": "FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given"
+}

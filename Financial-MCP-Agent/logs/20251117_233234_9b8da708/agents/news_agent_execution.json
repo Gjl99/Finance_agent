@@ -1,0 +1,32 @@
+{
+  "agent_name": "news_agent",
+  "start_time": "2025-11-17T23:32:35.290521",
+  "start_timestamp": 1763393555.2905328,
+  "input_data": {
+    "user_query": "603871 这个股票值得买吗",
+    "stock_code": "sh.603871",
+    "company_name": null,
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "stock_code"
+    ]
+  },
+  "status": "completed",
+  "end_time": "2025-11-17T23:34:08.559877",
+  "end_timestamp": 1763393648.5599024,
+  "execution_time_seconds": 93.26876258850098,
+  "output_data": {
+    "news_analysis_length": 1999,
+    "analysis_preview": "根据爬取到的新闻，以下是针对嘉友国际（股票代码：sh.603871）的新闻分析报告：\n\n### 1. 最新新闻\n1. **东方财富网** - 提供嘉友国际(603871)股票的行情走势、五档盘口、逐笔交易等实时行情数据,及嘉友国际(603871)的新闻资讯、公司公告、研究报告、行业研报、F10资料、行业资讯、资金流分析、阶段涨幅、所属板块、财务指标、机构观点、行业排名、估值水平、股吧互动等与嘉友国际(603871)...\n   - **情感分析**: 3 (中性)\n   - **风险分析**: 3 (中等风险)\n   - **链接**: [东方财富网](https://quote.eastmoney.com/SH603871.html)\n\n2. **新浪财经** - 富时中国A50指数期货涨幅扩大至8% 11:11 飓风“海伦妮”已导致美国至少162人死亡 10:22 国家发展改革委发布新一批国家物流枢纽建设名单 10:17 国庆档首日票房超去年,刷新中国影史国庆节场次纪录 09:59 富时中国A50指数期货涨超5% 09:53 恒指涨幅扩大至2.5%,中资券商股...\n   - **",
+    "llm_execution_time": 91.62958431243896,
+    "total_execution_time": 93.26876258850098
+  },
+  "success": true,
+  "error": null
+}

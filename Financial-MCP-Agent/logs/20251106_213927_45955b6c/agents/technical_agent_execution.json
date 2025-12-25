@@ -1,0 +1,46 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-06T21:39:27.709273",
+  "start_timestamp": 1762436367.709281,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-06T21:39:30.259563",
+  "end_timestamp": 1762436370.2595882,
+  "execution_time_seconds": 2.5497164726257324,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-06",
+    "current_date_cn": "2025年11月06日",
+    "current_time": "21:39:27",
+    "current_weekday_cn": "星期四",
+    "current_time_info": "2025年11月06日 (2025-11-06) 星期四 21:39:27",
+    "analysis_timestamp": "2025-11-06T21:39:27.407585",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "value_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "value_analysis": "估值分析过程中出现错误: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "fundamental_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "fundamental_analysis": "基本面分析过程中出现错误: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "news_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "news_analysis": "新闻分析过程中出现错误: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "technical_analysis_error": "Error in MCP or agent execution: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}",
+    "technical_analysis": "技术分析过程中出现错误: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}"
+  },
+  "success": false,
+  "error": "Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}"
+}

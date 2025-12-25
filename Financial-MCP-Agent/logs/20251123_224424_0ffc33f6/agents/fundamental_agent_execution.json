@@ -1,0 +1,39 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-23T22:44:24.558765",
+  "start_timestamp": 1763909064.5587723,
+  "input_data": {
+    "user_query": "920091分析一下这支股票",
+    "stock_code": "sz.920091",
+    "company_name": "这支股票",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-23T22:44:26.978456",
+  "end_timestamp": 1763909066.9784682,
+  "execution_time_seconds": 2.4193115234375,
+  "output_data": {
+    "query": "920091分析一下这支股票",
+    "current_date": "2025-11-23",
+    "current_date_cn": "2025年11月23日",
+    "current_time": "22:44:24",
+    "current_weekday_cn": "星期日",
+    "current_time_info": "2025年11月23日 (2025-11-23) 星期日 22:44:24",
+    "analysis_timestamp": "2025-11-23T22:44:24.555243",
+    "company_name": "这支股票",
+    "stock_code": "sz.920091",
+    "fundamental_analysis_error": "No MCP tools available."
+  },
+  "success": false,
+  "error": "No MCP tools available"
+}

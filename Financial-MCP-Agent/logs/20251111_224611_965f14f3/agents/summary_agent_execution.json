@@ -1,0 +1,61 @@
+{
+  "agent_name": "summary_agent",
+  "start_time": "2025-11-11T22:46:32.952648",
+  "start_timestamp": 1762872392.952659,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "available_analyses": {
+      "fundamental": true,
+      "technical": true,
+      "value": true,
+      "news": true
+    },
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code",
+      "technical_analysis_error",
+      "technical_analysis",
+      "news_analysis_error",
+      "news_analysis",
+      "value_analysis_error",
+      "value_analysis",
+      "fundamental_analysis_error",
+      "fundamental_analysis"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:46:32.958518",
+  "end_timestamp": 1762872392.9585314,
+  "execution_time_seconds": 0.005304098129272461,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:46:11",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:46:11",
+    "analysis_timestamp": "2025-11-11T22:46:11.594504",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis_error": "Error in MCP or agent execution: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "technical_analysis": "技术分析过程中出现错误: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "news_analysis_error": "Error in MCP or agent execution: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "news_analysis": "新闻分析过程中出现错误: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "value_analysis_error": "Error in MCP or agent execution: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "value_analysis": "估值分析过程中出现错误: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "fundamental_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "fundamental_analysis": "基本面分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "summary_error": "Error generating final report: AsyncCompletions.create() got an unexpected keyword argument 'strict'",
+    "final_report": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: AsyncCompletions.create() got an unexpected keyword argument 'strict'\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        ",
+    "report_path": "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251111_224632.md"
+  },
+  "success": false,
+  "error": "AsyncCompletions.create() got an unexpected keyword argument 'strict'"
+}

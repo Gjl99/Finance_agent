@@ -1,0 +1,40 @@
+{
+  "agent_name": "technical_agent",
+  "start_time": "2025-11-17T23:22:43.160467",
+  "start_timestamp": 1763392963.1604745,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-17T23:22:49.968325",
+  "end_timestamp": 1763392969.9683502,
+  "execution_time_seconds": 6.807378053665161,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-17",
+    "current_date_cn": "2025年11月17日",
+    "current_time": "23:22:42",
+    "current_weekday_cn": "星期一",
+    "current_time_info": "2025年11月17日 (2025-11-17) 星期一 23:22:42",
+    "analysis_timestamp": "2025-11-17T23:22:42.742448",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "technical_analysis_error": "Error in MCP or agent execution: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given",
+    "technical_analysis": "技术分析过程中出现错误: FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given"
+  },
+  "success": false,
+  "error": "FixedChatOpenAI._create_chat_result() takes 2 positional arguments but 3 were given"
+}

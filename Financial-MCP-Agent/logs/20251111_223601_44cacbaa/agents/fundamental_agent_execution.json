@@ -1,0 +1,42 @@
+{
+  "agent_name": "fundamental_agent",
+  "start_time": "2025-11-11T22:36:01.219216",
+  "start_timestamp": 1762871761.2192235,
+  "input_data": {
+    "user_query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "stock_code": "sh.600519",
+    "company_name": "茅台",
+    "input_data_keys": [
+      "query",
+      "current_date",
+      "current_date_cn",
+      "current_time",
+      "current_weekday_cn",
+      "current_time_info",
+      "analysis_timestamp",
+      "company_name",
+      "stock_code"
+    ]
+  },
+  "status": "failed",
+  "end_time": "2025-11-11T22:36:20.490615",
+  "end_timestamp": 1762871780.49064,
+  "execution_time_seconds": 19.270854949951172,
+  "output_data": {
+    "query": "帮我看看茅台(600519)这只股票值得投资吗",
+    "current_date": "2025-11-11",
+    "current_date_cn": "2025年11月11日",
+    "current_time": "22:36:01",
+    "current_weekday_cn": "星期二",
+    "current_time_info": "2025年11月11日 (2025-11-11) 星期二 22:36:01",
+    "analysis_timestamp": "2025-11-11T22:36:01.215182",
+    "company_name": "茅台",
+    "stock_code": "sh.600519",
+    "value_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"s...d\", \"adjust_flag\": \"3\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "value_analysis": "估值分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"s...d\", \"adjust_flag\": \"3\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "fundamental_analysis_error": "Error in MCP or agent execution: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type",
+    "fundamental_analysis": "基本面分析过程中出现错误: 1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+  },
+  "success": false,
+  "error": "1 validation error for AIMessage\ntool_calls.0.args\n  Input should be a valid dictionary [type=dict_type, input_value='{\"code\": \"sh.600519\", \"y...: \"2025\", \"quarter\": 3}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/dict_type"
+}

@@ -1,0 +1,8 @@
+2025-11-23 22:44:24 - src.main - INFO - Environment Variables Loaded:
+2025-11-23 22:44:24 - src.main - INFO -   OPENAI_COMPATIBLE_MODEL: Qwen/Qwen2.5-72B-Instruct
+2025-11-23 22:44:24 - src.main - INFO -   OPENAI_COMPATIBLE_BASE_URL: https://api.siliconflow.cn/v1
+2025-11-23 22:44:24 - src.main - INFO -   OPENAI_COMPATIBLE_API_KEY: ********************
+2025-11-23 22:44:24 - src.main - INFO - ✓ 执行日志系统已初始化，日志目录: logs/20251123_224424_0ffc33f6
+2025-11-23 22:44:24 - src.main - INFO - 从查询中提取 - 公司名称: 这支股票, 股票代码: 920091
+2025-11-23 22:44:24 - src.main - INFO - 当前时间: 2025年11月23日 (2025-11-23) 星期日 22:44:24
+2025-11-23 22:44:24 - src.main - INFO - Starting financial analysis workflow for query: '920091分析一下这支股票'

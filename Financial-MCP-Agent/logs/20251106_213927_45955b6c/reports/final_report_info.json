@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-11-06T21:39:30.307808",
+  "report_path": "/home/data1/gjl/more_learning/shock_invest_Agent/Finance/Financial-MCP-Agent/reports/error_report_茅台_600519_20251106_213930.md",
+  "report_length": 523,
+  "report_preview": "\n        # Analysis Report for 茅台 (sh.600519)\n        \n        **Error encountered during report generation**: Error code: 403 - {'code': 30001, 'message': 'Sorry, your account balance is insufficient', 'data': None}\n        \n        ## Available Analysis Fragments:\n        \n        - Fundamental Analysis: Available\n        - Technical Analysis: Available\n        - Value Analysis: Available\n        - News Analysis: Available\n        \n        Please review the individual analyses directly for more information.\n        "
+}
